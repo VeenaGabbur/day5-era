@@ -1,6 +1,10 @@
-from Calculation import Calculation
+import math_operations
 
-obj=Calculation()
 
-print(obj.add(3,4))
-print(obj.product(3,4))
+result_power = math_operations.power(2, 10)
+
+numbers = [10, 20, 30, 40]
+result_avg = math_operations.average(numbers)
+
+print(f"2^10 = {result_power}")
+print(f"Average = {result_avg}")
